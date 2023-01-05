@@ -1,24 +1,46 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Set up a "Hello world" project with react-rails gem
 
-Things you may want to cover:
+> A simple application for study purposes. It combines rails as a back-end and react as a front-end library.
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby on Rails
+- React
 
-* Configuration
+## Getting Started
 
-* Database creation
+To get a local copy up and running follow these simple example steps.
 
-* Database initialization
+- Copy and clone this link locally ``.
+- Go to the repository folder in your command prompt ``.
 
-* How to run the test suite
+- Follow these steps to run the app:
+  - run `bundle install` to install all ruby gems
+  - run `yarn install` or `npm install` to install all dependencies
+  - run `rails db:create`,`rails db:migrate`,`rails db:seed` to create database
+  - run `npm run build` or `yarn build` for webpacker handles javascript compilation in Rails.
+  - run `rails s`
 
-* Services (job queues, cache servers, search engines, etc.)
+## Authors
 
-* Deployment instructions
+👤 **Alfred Kinyua**
 
-* ...
+- GitHub: [@githubhandle](https://github.com/Alfred-KInyua)
+- Twitter: [@twitterhandle](https://twitter.com/alfkinyua)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alfred-kinyua/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
